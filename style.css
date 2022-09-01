@@ -1,18 +1,24 @@
 body{
-  background-color:#33FFE3;
-}
-.contenedor {
-	width: 95%;
-	max-width:1000px;
-	margin:auto;
+  background-image: url(fondo.jpg);
 }
 
-.contenedor p {
-	margin-bottom:40px;
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 header nav {
-	background:#F44336;
+
 	margin-bottom:10px;
 }
 
@@ -38,7 +44,10 @@ header nav ul li a:hover {
 footer{
   color: #000000
 }
-
+header nav a {
+	text-decoration: none;
+	margin-right: 20px;
+}
 
 .menu-fixed {
 	position:fixed;
